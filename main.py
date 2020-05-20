@@ -1,8 +1,6 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib.pyplot as plt
-sns.set()
 dataset=pd.read_csv("Social_Network_Ads.csv")
 
 X=dataset[['Age', 'EstimatedSalary']]
